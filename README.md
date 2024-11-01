@@ -103,17 +103,15 @@ loan-analysis/
 │
 ├── README.md
 └── requirements.txt
+```
 
-
-
-
-
-SOURCE OF DATA IS KAGGLE # Source
+# DATA
+SOURCE OF DATA IS KAGGLE
 Kaggle https://www.kaggle.com/datasets/lorenzozoppelletto/financial-risk-for-loan-approval
 
 The original authos provides the Python Snippet to generate the provided data we are using in this project:
 
-``
+```
 import pandas as pd
 import numpy as np
 from scipy import stats
@@ -357,5 +355,6 @@ print(f"\nTotal number of features (including label): {len(df.columns)}")
 print("\nFeatures:")
 for column in df.columns:
     print(f"- {column}")
-``
+```
+
 
